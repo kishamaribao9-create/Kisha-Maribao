@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Georgia, serif;
+}
+
+body{
+    background:#ffffff;
+    color:#111;
+    line-height:1.5;
+}
+
+.btn{
+    color:#111;
+}
+
+/* SEB NAWONG */
+.hero{
+    background:linear-gradient(#ffffff,#58e6ff);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:50px;
+}
+.hero-text h1{
+    font-size:90px;
+    line-height:85px;
+}
+.top-label{
+    font-size:12px;
+    margin-bottom:15px;
+}
+.hero-img{
+    width:580px;
+}
+
+/* ABOUT */
+.about{
+    background:linear-gradient(#ffffff,#58e6ff);
+    padding:60px;
+}
+.about h2{
+    font-size:50px;
+    margin-bottom:30px;
+}
+.about-content{
+    max-width:1250px;
+}
+.description{
+    margin-bottom:20px;
+}
+.art-img{
+    align-items:center;
+    width:175px;
+    border-radius:6px;
+    margin-bottom:10px;
+}
+.small-note{
+    width:1250px;
+}
+
+/* SEB PICTURES */
+.gallery{
+    background:linear-gradient(#ffffff,#58e6ff);
+    padding:60px;
+    font-size:30px;
+}
+.photo-grid{
+    display:flex;
+    gap:8px;
+}
+.photo-grid img{
+    width:200px;
+    height:267px;
+    border-radius:40px;
+}
+.small-note1{
+    font-size:20px;
+}
+
+
+/* FRIENDGROUP */
+.big-banner{
+    padding:60px;
+    background:linear-gradient(#ffffff,#58e6ff);
+    font-size:30px;
+}
+.big-banner img {
+    aspect-ratio: 16 / 9;
+    width: 500px;
+    gap: 20px;
+}
+
+/* SERVICES */
+.services{
+    padding:60px;
+}
+.service-list{
+    list-style:none;
+    margin-top:20px;
+}
+.service-list li{
+    padding:8px 0;
+    border-bottom:1px solid #ddd;
+    width:250px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #43adce;
+    color: rgb(56, 56, 56);
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #5bff8c;
+    cursor: pointer;
+}
+
+\\sa drawing pics
+.about-section {
+    display: flex;              /* puts text and images side-by-side */
+    align-items: flex-start;    /* top alignment */
+    gap: 40px;                  /* space between text and images */
+    padding: 40px;
+}
+
+.about-text {
+    flex: 1;                    /* text takes half of the space */
+    max-width: 450px;
+}
+
+.about-images {
+    flex: 1;                    /* image grid takes half of the space */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 images per row */
+    gap: 20px;
+}
+
+.about-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
